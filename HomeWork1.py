@@ -1,0 +1,11 @@
+n1=int(input("Enter Number 1: "))
+n2=int(input("Enter Number 2: "))
+
+print(max(n1,n2))
+print("Sum is: ", n1+n2)
+print("Sub is: ",n1-n2)
+print("Mul is: ",n1*n2)
+div=(n1/n2)
+print("Division is: ",div)
+print(f"{div:.3f}")
+print("Floorediv is: ",n1//n2)
